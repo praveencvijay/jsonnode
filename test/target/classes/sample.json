@@ -1,0 +1,36 @@
+{
+  "applicationn_name": "telemedicine",
+  "application_code": "telemedicinecode",
+  "application_roles": {},
+  "application_persmissions": {
+    "user": {
+      "create": [
+        "subscription-owner",
+        "admin"
+      ],
+      "update": [
+        "subscription-owner",
+        "admin"
+      ],
+      "delete": [
+        "subscription-owner",
+        "admin"
+      ]
+    },
+    "department": {
+      "create": [
+        "subscription-owner",
+        "admin"
+      ],
+      "update": [
+        "subscription-owner",
+        "admin"
+      ],
+      "delete": [
+        "subscription-owner",
+        "admin"
+      ]
+    }
+  },
+  "status": true
+}
